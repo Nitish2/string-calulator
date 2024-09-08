@@ -1,16 +1,14 @@
-.custom-input{
+
+.custom-css{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
     margin: 0 auto;
 }
-
+.input-width{
+    width: 10%;
+}
 .custom-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
     width: 100px;
     color: green;
 }

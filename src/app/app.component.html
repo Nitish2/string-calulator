@@ -1,8 +1,14 @@
 <ng-container>
   <br>
-  <input class="custom-input" type="stringss"/>
+  <label class="custom-css">Input</label>
   <br>
-  <button class="custom-btn">Add</button>
+    <input class="custom-css input-width" [(ngModel)]="numbers" type="stringng" (ngModelChange)="changeInput($event)"/>
+  <br>
+  <button class="custom-css custom-btn" (click)="add(numbers)">Add</button>
+  <br>
+  <label class="custom-css">Output</label>
+  <span class="custom-css">{{output}}</span>
+
 </ng-container>
 
 <router-outlet></router-outlet>
